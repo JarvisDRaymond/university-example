@@ -19,7 +19,7 @@ h3 {
 	font-size:18px;
 }
 
-/*Aligning Elements*/
+/*aligning Elements*/
 body { 
 	background-color:#EDEDED; 
 	font-family:helvetica, sans-serif;
@@ -127,7 +127,7 @@ footer {
 	font-size:10px;
 }
 
-/*BUTTONS*/
+/*Buttons*/
 .smallbutton {
 	background-color:#E5E0C7; 
 	border-radius:6px;
@@ -158,26 +158,43 @@ a.smallbutton:hover {background-color:#5f574f; color:#E5E0C7;}
 	width:110px;
 	text-decoration:none;
 	text-align:center;
-    line-height:30px;
+        line-height:30px;
 	float:left;
 	margin-top:10px;
-	}
-input[type="submit"]:hover {background-color:#5f574f; color:#E5E0C7;}
-
-/* NAVIGATION */
-nav {margin: 0px auto; text-align:center; opacity:1; background-color:#313132; padding:10px 0px; height:30px;}
+}
+input[type="submit"]:hover {
+	background-color:#5f574f; 
+	color:#E5E0C7;
+}
+/*Navigation*/
+nav {
+	background-color:#313132; 
+	height:30px;
+	margin: 0px auto;
+	opacity:1;
+	padding:10px 0px;
+	text-align:center; 
+}
 nav ul{
-	list-style: none;
 	display: block;
+	list-style: none;
 	margin: 0 auto;
-	list-style: none;	
 }
 nav li{
-	margin-top: 9px;
 	display:inline;
-	margin:0px auto;
+	margin:9px auto 0 auto;
 	padding-right: 7%;
 }
-nav li a {color: #fff; font-size: 1.3em; font-family: 'Tahoma';font-weight: lighter; }
-nav li a.active {color: #5f574f; border-bottom: 2px solid #fff; }
-nav li a:hover {color: #5f574f;}
+nav li a {
+	color: #fff;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 1.3em; 
+	font-weight: lighter; 
+}
+nav li a.active {
+	border-bottom: 2px solid #fff;
+	color: #5f574f;
+}
+nav li a:hover {
+	color: #5f574f;
+}
